@@ -29,7 +29,12 @@ Day-02/
 ├── file3.js   - Truthy & falsy values
 ├── file4.js   - Ternary Operators
 ├── file5.js   - AND OR Operator 
-|
+├── file6.js   - Deep about null & BigInt
+├── file7.js   - Switch Statement
+├── file8.js   - While loop
+├── file9.js   - For loop
+├── file10.js  - Break & Continue 
+├── file11.js  - Do while loop 
 └── README.md
 
 ## Status
