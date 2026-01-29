@@ -21,7 +21,7 @@
   - while loop
 - switch Statement
 
-## File Structure
+##  File Structure
 
 Day-02/
 ├── file1.js   - Deep about null & BigInt

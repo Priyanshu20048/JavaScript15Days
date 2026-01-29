@@ -1,6 +1,7 @@
 // Truthy and falsy values in JavaScript
 
 // ---------falsy value-----------------
+
 // false
 // ""
 // null
