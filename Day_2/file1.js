@@ -8,7 +8,7 @@ console.log (typeof address); // object (this is a bug in javascript)
 // it is often used to indicate that a variable should not point to any object 
 
 // BigInt :- 
-in javascript , number type can only represent numbers up to a certain limit (2^53 - 1)
+// in javascript , number type can only represent numbers up to a certain limit (2^53 - 1)
 // BigInt is a built-in object that provides a way to represent whole numbers larger than 2^53 - 1
 // BigInt can be created by appending 'n' to the end of an integer or by calling the BigInt() constructor
 let bigInt1 = 1234567890123456789012345678901234567890n;
