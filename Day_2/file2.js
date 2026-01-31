@@ -1,5 +1,7 @@
 // Boolean and comparison operations
 // bolean can have only two values: true or false
+// default value of boolean :- undefined
+
 let num1= 7;
 let num2 = 7;
 num1> num2;

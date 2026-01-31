@@ -12,7 +12,7 @@ else {
     console.log("no");
 
 }
- // in and opertaor the conditions becomes true onli if both the statemnts written in the left and right of the && operator must be true ;
+ // in and opertaor the conditions becomes true only if both the statements written in the left and right of the && operator must be true ;
  // if any one conditions is false the whole statment automatically becomes false and else will be executed
 
  //------------------OR -------------
