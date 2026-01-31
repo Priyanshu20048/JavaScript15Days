@@ -36,6 +36,28 @@ Here all Interview questions with answers
 11. What is HTML parsing in relation to JS ?
     HTML parsing is the process by which the browser reads HTML code and constructs the DOM  structure before JS interacts with it 
 
+12. What are Data Types in JavaScript ?
+    It defines the type of value of variable can hold such as number , string or boolean 
+
+13. What are primitive data types in JS ?
+    7 :- String , Number , Boolean , Null, Undefined , BigInt , Symbol
+
+14. What are Non primitive data types ?
+    Arrays, Objects and Functions
+
+15. Why does typeof null return object ?
+    It is a known bug in JS retained for backward compatibilty.
+
+16. Difference between == and ===?
+    == -> compares the value after type conversion (checks only value )
+    === -> compares both value and type 
+
+17. What are truthy and falsy values ? 
+    Falsy values :- null , undefined , "",0 and NaN.
+    All other values are truthy.
+
+18. 
+
 
 
 
