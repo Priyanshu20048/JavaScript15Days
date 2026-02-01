@@ -73,4 +73,45 @@
 
 // =----------------Day 3 ------------------------------
 
+let arr = [1,2,3];
+arr[0] = 10;
+console.log(arr);// [10,2,3]
+
+let arr = [1,2,3]
+console.log(arr.length); //3
+
+let a = [1,2]
+let b = a;
+b.push(3);
+console.log(a); // [1,2,3]
+
+let a = [1,2]
+let b = [...a]
+b.push(3);
+console.log(a); //[1,2]
+
+let arr = [10,20,30]
+console.log(arr.pop()); // 30
+
+let arr = [1,2,3]
+arr.unshift(0);
+console.log(arr); // [0,1,2,3]
+
+let arr = [1,2,3];
+for (let i in arr){
+    console.log(i);
+} 
+// 0 
+// 1
+// 2 
+
+let arr = [1,2,3];
+for (let i of arr){
+    console.log(i);
+}
+// 1
+// 2
+// 3 
+
+// ----------------------------Day-4---------------------------
 
