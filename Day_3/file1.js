@@ -2,8 +2,8 @@
  // Array :- ordered collection of items
  // If you have a list of items (a list of car names, for example),
  // Array :- reference type in JavaScript 
-// all the reference tpe in javascript are considered as objects
-// Array ia an object 
+// all the reference type in javascript are considered as objects
+// Array is  an object 
 
  // creating an array
  let fruits = ["Apple", "Banana", "Mango", "Orange"];
