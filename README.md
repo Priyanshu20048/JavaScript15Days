@@ -56,7 +56,30 @@ Here all Interview questions with answers
     Falsy values :- null , undefined , "",0 and NaN.
     All other values are truthy.
 
-18. 
+18. What is Array in JS?
+    An array is a data structure used to store multiple vaues in a single variable in an ordered manner.
+
+19. Are arrays primitive or non - primitive ?
+    Arrays are non -primitive data types in JS.
+
+20. What is the index of first element in an array ?
+    The index of first element is 0.
+
+21. Why are arrays called referece types ?
+    Because variables stores references to the array in memory , not the actual values.
+
+22. How do you clone an array ?
+    An array can be cloned using the spread operator , slice nad concat method.
+
+23. What is the spread operator ?
+    The spread (...) is used to expand elements of an array into an new array.
+
+24. Differece between for , for ...of , for ...in ? 
+    for -> index based
+    for ... of -> iterates over value
+    for ...in -> iterates over indexes
+
+
 
 
 
