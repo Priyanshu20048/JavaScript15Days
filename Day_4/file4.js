@@ -1,4 +1,6 @@
 // Spread Operator in Objects
+// Spready on;y copy the top level and nested ones are just copied by reference
+// shallow copy
 
 const obj1 = {
     key1 : "value1",

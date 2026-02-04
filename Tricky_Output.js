@@ -115,3 +115,105 @@ for (let i of arr){
 
 // ----------------------------Day-4---------------------------
 
+let obj = {name :"JS"},
+    obj.age = 20;
+    console.log(obj); // {name:"JS", age:20}
+
+let obj = {name : "JS"};
+delete obj.name;
+console.log(obj): // {}
+
+let obj = {name : "JS"};
+console.log(obj["name"]); // JS
+
+let key = "age";
+let obj = {name : "JS",age : 25};
+console.log(obj.key); // undefined
+
+let key = "age";
+let obj = {name : "JS" , age : 25};
+console.log(obj[key]); // 25
+
+let obj = {a:1,b:2};
+for (let key in obj){
+    console.log(key);
+} 
+// a 
+// b
+
+let obj = {a:1,b:2};
+for (let key in obj){
+    console.log(obj[key])
+} 
+// 1
+// 2 
+
+let obj = {
+    user : {
+        name :"js",
+        age : 20
+    }
+};
+console.log(obj.user.name); // js
+
+const obj = {a:1};
+obj.a = 2;
+console.log(obj); // {a:2}
+
+const obj = {a:1};
+obj = {a:2}; // Error 
+
+let obj1 = {a:1}
+let obj2 = obj1;
+obj.a = 5;
+console.log(obj1.a); // 5
+
+let obj = {a:1};
+function update(o){
+    o.a = 10;
+}
+update(obj);
+console.log(obj.a); // 10
+
+let obj = {a:1};
+Object.freeze(obj);
+obj.a = 100;
+console.log(obj.a); // 1 
+// Object.freeze() prevents modification.
+
+let obj = {a:1};
+console.log("a" in obj);
+console.log(obj.hasOwnProperty("a"));
+// true 
+// true 
+
+let obj = Object.create({a:1});
+console.log(obj.a);
+console.log(obj.hasOwnProperty("a"));
+// 1
+// false 
+
+let obj = {a:1,b:2};
+for (let key in obj){
+    if (key ==="a") delete obj[key];
+    console.log(key);
+}
+// a
+// b 
+
+let obj = {a:1};
+Object.seal(obj);
+obj.b = 2;
+delete obj.a;
+console.log(obj); // {a:1}
+
+let obj = {a:{b:2}};
+let copy = {...obj};
+copy.a.b = 10;
+console.log(obj.a.b); // 10 
+
+
+
+
+
+
