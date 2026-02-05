@@ -30,6 +30,42 @@
     let b = 20;
     console.log(`Sum is ${a+b}`); // Sum is 30
 
+    let a = "10";
+    let b = 5;
+    console.log(a+b); //105
+
+    let a = "10";
+    let b = 5;
+    console.log(a-b); // 5
+
+    let str = "hello"
+    str[0] = "H"
+    console.log(str); // hello
+
+    console.log("Javascript".substring(4,0)); // Java
+    
+    console.log("JavaScript".includes("script")); // false 
+
+    let x = "5";
+    console.log(typeof (x+1)); // String
+
+    console.log("5"*2); // 10
+
+    console.log("hello".substring(-2));
+    // hello
+
+    console.log("hello".slice(-2));
+    // lo
+
+    let name = "JS";
+    name = name + "World";
+    console.log(name);// JS World
+
+    console.log("5" +2 *3); // 6
+    console.log("5" + 2 + 3); // 523
+    
+
+
 
 // -------------Day 2 ------------------------------
     console.log(typeof null); // object 

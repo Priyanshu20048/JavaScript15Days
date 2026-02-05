@@ -34,6 +34,16 @@ console.log (typeof isPassed); // boolean
 let city;
 console.log (typeof city); // undefined
 
+// Implicit type conversion (type coercion)
+// when we perform an operation on two different data types then JavaScript automatically converts one data type to another data type to perform the operation
+
+// like console.log (5 + "10"); // 510
+
+// in above example 5 is number and "10" is string so JavaScript converts number 5 to string "5" and then performs concatenation to give result "510"
+
+// explicit type conversion :- 
+// when we manually convert one data type to another data type then it is called explicit type conversion
+
 // convert number to string
 let marks = 90;
 let marksString = String(marks);
@@ -75,3 +85,25 @@ console.log (typeof NaN); // number
 // if wehav to do write a line like harshit ia type of string using temlate literals 
 // let personName = "Harshit";
 // console.log (`${personName} is of type ${typeof personName}`); // Harshit is of type string
+
+// Operator precedence :-
+// it determines the order in which operators are evaluated in an expression
+// 1️⃣ ()           → Parentheses (highest priority)
+// 2️⃣ ++ --        → Increment / Decrement
+// 3️⃣ * / %        → Multiplication, Division, Modulus
+// 4️⃣ + -          → Addition, Subtraction
+// 5️⃣ < > <= >=    → Comparison
+// 6️⃣ == ===       → Equality
+// 7️⃣ &&           → Logical AND
+// 8️⃣ ||           → Logical OR
+// 9️⃣ =            → Assignment (low priority)
+
+// e.g.
+let result = 5 + 3 * 2; // multiplication has higher precedence than addition
+console.log (result); // 11
+// so 3*2 = 6 then 5 + 6 = 11
+let result2 = (5 + 3) * 2; // parentheses have highest precedence
+console.log (result2); // 16
+
+// if we have operators with same precedence then they are evaluated from left to right
+

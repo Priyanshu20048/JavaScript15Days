@@ -16,7 +16,7 @@ Here all Interview questions with answers
 5.  What is the difference between var , let and const ?
     var -> function scoped , declaration allowed 
     let -> block scoped , redeclaration not allowed
-    const -> block scoped , redeclaration and reassignment allowed
+    const -> block scoped , redeclaration and reassignment not allowed
 
 6.  Why is const preferred over let ?
     const is preferred because it prevents reassignment and helps write safer and more pedictable code.
@@ -78,6 +78,16 @@ Here all Interview questions with answers
     for -> index based
     for ... of -> iterates over value
     for ...in -> iterates over indexes
+
+25. Is JavaScript case - sensitive ?
+    Yes
+
+26. Difference between substring() and slice() method ?
+    Substring doent support negative indexing while splice does and substring swaps parameters if start > end .
+
+27. Does Javscript automatically convert string to number during arithmetic operations?
+    yes , js performs implicit type coercion. Arithmtic operators like * , / , % convert string sto numbers autimatically while (+) may perform string conactenatuion of one operand is string.
+
 
 
 
