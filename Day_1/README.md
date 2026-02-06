@@ -21,12 +21,13 @@
 ## File Structure
 
 Day-01/
-├── day_1.html - html file 
-├── file1.js   - basic of js + history of js 
-├── file2.js   - intro to var , let and const
-├── file3.js   - Types of operator , conversions 
-├── file4.js   - Methods od string Conactenation 
-├── file5.js   - String Indexing & String Methods
+├── day_1.html         - html file 
+├── do_it_yourself.js  - Tricky questions for practice to do yourself 
+├── file1.js           - basic of js + history of js 
+├── file2.js           - intro to var , let and const
+├── file3.js           - Types of operator , conversions 
+├── file4.js           - Methods od string Conactenation 
+├── file5.js           - String Indexing & String Methods
 └── README.md
 
 ## Status
