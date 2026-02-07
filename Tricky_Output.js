@@ -107,6 +107,72 @@
     console.log(i);
    } // No output 
 
+   console.log([] == false); // true // because loose equality triggers type coercion . Empty array -> empty string -> number 0 
+
+   console.log([] ==![]); // true
+
+   console.log(null == undefined); // true 
+
+   console.log(null === undefined); // false
+
+   if([]){
+    console.log("YES");
+
+   } else {
+    console.log("No");
+   }           
+    // YES
+
+console.log("0" == false);  // true
+
+console.log(false == "0"); // true;
+
+console.log(NaN == NaN); // false NaN is not equal to any value, including itself, by definition.
+
+console.log(true+true+"5"); // 25
+
+console.log(5+"5" -2 *true); //53
+
+for (var i=0;i<3;i++){
+   console.log(i);
+}
+// 0
+// 1
+// 2
+
+for (let i =0;i<3;i++){}
+console.log(i); 
+// 3
+
+let i =0;
+do {
+    console.log(i);
+}while(i);
+// 0
+
+if("false"){
+    console.log("TRUE");
+}
+// TRUE  Non-empty strings are truthy regardless of their textual meaning.
+
+if(0) {
+    console.log("YES");
+}else{
+    console.log("NO");
+} 
+// NO
+
+console.log([] +[]); 
+// ""
+// + -> string conversion
+// [].toString() -> ""
+// "" + "" -> ""
+
+
+
+
+
+
 // =----------------Day 3 ------------------------------
 
 let arr = [1,2,3];

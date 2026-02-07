@@ -85,8 +85,19 @@ Here all Interview questions with answers
 26. Difference between substring() and slice() method ?
     Substring doent support negative indexing while splice does and substring swaps parameters if start > end .
 
-27. Does Javscript automatically convert string to number during arithmetic operations?
+27. Does Javscript automatically convert string to number    during arithmetic operations?
     yes , js performs implicit type coercion. Arithmtic operators like * , / , % convert string sto numbers autimatically while (+) may perform string conactenatuion of one operand is string.
+
+28. Why [] == false is true ?
+    Losse euality triggers Type coercion.Empty Arrays converts to empty string, then to number 0 which equals false.
+
+29. Why NaN == NaN is false ?
+    NaN is not equal to any value ,including itslef by definition.
+
+30. Why "false" is truthy?
+    Non empty strings are truthy regardless of their textual meaning.
+
+
 
 
 
