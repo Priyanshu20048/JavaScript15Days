@@ -168,6 +168,34 @@ console.log([] +[]);
 // [].toString() -> ""
 // "" + "" -> ""
 
+console.log([] +{});
+// [object Object]
+// [] -> ""
+// {} -> "[obkect Object]"
+
+console.log({} + []);
+// 0
+
+console.log([] ==0);
+// true 
+// [] -> "" -> 0
+
+console.log([] == "");
+//true
+
+if([] == false){
+    console.log("YES");
+}
+// true 
+
+console.log(true+"5"-1)
+// 14
+
+console.log("2">"12");
+
+
+console.log([] ==![]); // true console.log([] + {});console.log({} + []);console.log({} + []);
+
 
 
 

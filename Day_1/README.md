@@ -19,7 +19,7 @@
 - Template Literals
 
 ## File Structure
-
+```
 Day-01/
 ├── day_1.html         - html file 
 ├── do_it_yourself.js  - Tricky questions for practice to do yourself 
@@ -29,6 +29,7 @@ Day-01/
 ├── file4.js           - Methods od string Conactenation 
 ├── file5.js           - String Indexing & String Methods
 └── README.md
+```
 
 ## Status
 ✅ Completed
