@@ -194,7 +194,9 @@ console.log(true+"5"-1)
 console.log("2">"12");
 
 
-console.log([] ==![]); // true console.log([] + {});console.log({} + []);console.log({} + []);
+console.log([] ==![]); // true console.log([] + {});console.log({} + []);console.log({} + [])
+// ;
+
 
 
 
