@@ -106,4 +106,3 @@ let result2 = (5 + 3) * 2; // parentheses have highest precedence
 console.log (result2); // 16
 
 // if we have operators with same precedence then they are evaluated from left to right
-

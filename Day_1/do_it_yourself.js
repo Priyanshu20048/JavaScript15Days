@@ -96,6 +96,108 @@ console.log(str4.toLowerCase().includes("world"));
    let str5 = "JavaScript";
    console.log(str5.replace("Java","Type"));
 
+// Q11  Reverse the words without using reverse method.
+// Given:
+// let str = "I love javascript";
+
+// Output:
+// javascript love I
+
+let str9 = "I love javascript";
+let str10 = "";
+for (let  i = str9.length-1;i>=0;i--){
+   str10 += str9[i];
+}
+console.log(str10);
+
+
+// Q12. Capitalize First Letter of Each Word
+// Input:
+// "hello world javascript"
+// Output:
+// Hello World Javascript
+
+let str11= "hello world javascript"
+let capitals = str11.split(" ");
+for (let i =0;i<capitals.length;i++){
+   capitals[i] = capitals[i][0].toUpperCase() + capitals[i].slice(1);
+}
+
+console.log(capitals.join(" "));
+
+// Q13. Check pallindrome string 
+// input = "madam"
+// output = true
+
+let str13 = "madam"
+let str14 = str13.split().reverse().join("");
+if (str13 == str14){
+   console.log(true);
+}
+else {
+   console.log(false);
+}
+
+
+// Q14. Find longest word in a substring 
+
+// Input : - "I am learning javascript deeply"
+// Output :- javascript 
+
+let str15 = "I am learning javascript deeply";
+let words = str15.split(" ");
+let longest = "";
+for (let word of words){
+   if (word.length > longest.length){
+      longest = word;
+   }
+}
+console.log(longest);
+
+
+// yeh khud nhi huya 
+// split lagaya -> loop lgaya -> har word ki length compare ->  longest update kr diya 
+
+// yeh interviewer  agr kehde ki split use nhi krna 
+let longest1 = "";
+let current = "";
+for (let i =0;i<=str15.length;i++){
+   if (str15[i] !== " " && i < str15.length) {
+      current += str15[i];
+   } else {
+      if (current.length > longest1.length){
+         longest1 = current;
+      }
+      current = ""
+   }
+}
+console.log(longest1);
+
+
+
+// Q 15 . Count Character Frquency
+// Input: "programming" 
+// Output: p:1 r:2 o:1 g:2 ... Return as object.
+
+let str20 = "pRogramming"
+let freq = {}
+for  (let ch of str20){
+   if (freq[ch]){
+      freq[ch]++;
+   } else {
+      freq[ch] =1;
+   }
+}
+console.log(freq);
+
+// or (shorter version)
+
+
+let freq1 = {};
+for (let ch of str20) {
+   freq1[ch] = (freq1[ch] || 0) + 1;
+}
+console.log(freq1);
 
 
 // 😈 Bonus Challenge (Only if confident)

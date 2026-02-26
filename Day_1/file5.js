@@ -131,3 +131,30 @@ console.log(str6.substring(-4, 4));
 // differeence between slice() and substring()
 // 1. slice() allows negative indexing , substring() does not
 // 2. if startIndex > endIndex , slice() returns empty string , substring() swaps the two indexes
+
+// 8. split() method :- splits a string into an array of substrings based on a specified separator
+// stringName.split(separator, limit)
+// separator is the character or regular expression to use for splitting the string
+// limit is an optional parameter that specifies the maximum number of splits to be found. Default is Infinity
+let str7 = "Hello World";
+console.log(str7.split(" ")); // ["Hello", "World"]
+
+let str8 = "apple,banana,orange";
+console.log(str8.split(",")); // ["apple", "banana", "orange"]
+
+let str9 = "hello";
+console.log(str9.split("")); // 
+// ["h", "e", "l", "l", "o"] each character is split into an array element
+
+let str10 = "a,b,c,d,e";
+console.log(str10.split(",", 3)); // ["a", "b", "c"] limit is 3 so only first 3 splits are returned
+
+// separator not found in string
+let str11 = "hello";
+console.log(str11.split(",")); // ["hello"] the whole string is returned as a single element in array
+
+// separator is empty string
+let str12 = "";
+console.log(str12.split("")); // [] empty array since there are no characters to split
+
+

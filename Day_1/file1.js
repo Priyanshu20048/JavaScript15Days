@@ -21,3 +21,16 @@
 
 // you can do this by using babel (a js compiler) which converts modern js code into es5 code so that it can run on older browsers
 
+// Types of Error in JavaScript
+// 1. Syntax Error -> code likhte waqt hota hai jab hum js ke syntax ka palan nhi karte hain
+
+// 2. Runtime Error -> code likhne ke baad jab hum usse run karte hain tab hota hai (logical error bhi runtime error ka hi ek type hai)
+
+//Syntax Error Example
+// console.log("Hello World) // SyntaxError: missing closing quote
+
+// TypeError -> jab hum kisi aise operation ko perform karte hain jo uss data type ke liye valid nhi hota
+
+// ReferenceError -> jab hum kisi aise variable ko access karte hain jo declare nhi hua hota
+
+// RangeError -> jab hum kisi aise number ko use karte hain jo uss data type ke range ke bahar hota hai

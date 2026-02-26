@@ -83,7 +83,7 @@ Here all Interview questions with answers
     Yes
 
 26. Difference between substring() and slice() method ?
-    Substring doent support negative indexing while splice does and substring swaps parameters if start > end .
+    Substring doent support negative indexing while slice does and substring swaps parameters if start > end .
 
 27. Does Javscript automatically convert string to number    during arithmetic operations?
     yes , js performs implicit type coercion. Arithmtic operators like * , / , % convert string sto numbers autimatically while (+) may perform string conactenatuion of one operand is string.
@@ -96,6 +96,17 @@ Here all Interview questions with answers
 
 30. Why "false" is truthy?
     Non empty strings are truthy regardless of their textual meaning.
+
+31. Difference between compiled vs interpreted?
+    Compiled: machine code generated before execution.
+    Interpreted: code executed line-by-line.
+    JS uses JIT hybrid model.
+
+32. Why strings are immutable?
+    Because primitives are stored directly in memory and modifying them would break memory optimization and predictability. Hence JS returns new string.
+
+
+
 
 
 

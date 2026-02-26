@@ -23,7 +23,7 @@ console.log (myname);
 // case sensitivity
 
 // change the value of variable
-myname = "John";
+ myname = "John";
 console.log (myname);
 
 // var mei same varible redeclare krne pr purani value overwrite ho jati hai but memory mei variable ek hi hota hai
@@ -31,7 +31,7 @@ console.log (myname);
 // use strict 
 
 // hum bina var use kiye bina variable declare  kr skte hai 
-firstName = Mittal;
+firstName = "Mittal"k;
 console.log(firstName);
  // chnage value 
  firstname = "Mittu";

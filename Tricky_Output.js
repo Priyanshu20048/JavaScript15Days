@@ -63,7 +63,17 @@
 
     console.log("5" +2 *3); // 6
     console.log("5" + 2 + 3); // 523
+
+    console.log(typeof typeof 10); // string 
+
+    console.log(true+true); // 2
     
+    console.log(null+1); // 1
+    // ismei type conversion hua null ko -> 0 me 
+console.log(undefined+1); // NaN    
+  console.log(10/0); // Infinity 
+  console.log(-10/0); // -Infinity
+   console.log(Boolean("")); // false
 
 
 
@@ -171,10 +181,16 @@ console.log([] +[]);
 console.log([] +{});
 // [object Object]
 // [] -> ""
-// {} -> "[obkect Object]"
+// {} -> "[object Object]"
 
 console.log({} + []);
 // 0
+//Note :- JavaScript kabhi {} ko object nahi maanta.
+//         Jab {} expression ke start me hota hai 
+//              {} ->ignore
+// iske baad hmare pass bcha +[] -> yeh unary operator hai 
+// unary plus -> convert it to number 
+
 
 console.log([] ==0);
 // true 
@@ -186,19 +202,47 @@ console.log([] == "");
 if([] == false){
     console.log("YES");
 }
-// true 
+// YES
+
 
 console.log(true+"5"-1)
-// 14
+// NaN
 
-console.log("2">"12");
+console.log("2">"12"); // true 
+// jb dono operands string ho toh lexicographical comparison krte hai (alphabet order comparison)
+// first character compare "2" > "1" ascii code 2 ka jyada hai isliye true 
+
+console.log("2" > 12); // false (numeric conversion)
 
 
-console.log([] ==![]); // true console.log([] + {});console.log({} + []);console.log({} + [])
-// ;
+console.log(Boolean("0")); // true
+
+if(" ") console.log("yes"); // yes
+// space string -> not empty 
+
+switch(10){
+ case "10":
+   console.log("match");
+} // strict compare -> no output 
+
+console.log(typeof typeof 10); // string
+// typeof 10 -> "number"
+// type of "number" -> string 
+
+console.log([] ==![]); // true 
+// ismei sbse pehle not operator chlega woh empty array ki truthy value ko false krega 
+// fir first array ko khaali string mei convert kiya jayega 
+// empy string == false  -> true aayega 
 
 
+let b=10;
+let b=20; // SyntaxError: Identifier 'b' has already been declared
 
+const c=10;
+c=20;  // TypeError: Assignment to constant variable.
+
+console.log(typeof function(){}); // function 
+// // internally functions are treated as objects but typeof operator returns "function" for them
 
 
 
