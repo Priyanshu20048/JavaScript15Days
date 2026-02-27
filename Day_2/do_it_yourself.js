@@ -69,3 +69,49 @@ for(let i =0;i<values1.length;i++){
     }
 }
 console.log(count1);
+
+// Q11. Custom Truthy / Falsy checker 
+// Input:["",0,"hello",null,[],{}]
+// Output:
+// false
+// false
+// true
+// false
+// true
+// true
+
+let check = ["",0,"hello",null,[],{}];
+for (let ch of check){
+    if(ch){
+        console.log(true);
+    }
+    else {
+        console.log(false);
+    }
+}
+
+// Q12. Type converter utility 
+// Input:convert("15")
+// Output:
+// number:15
+// string:"15"
+// boolean:true
+
+let str5 = "15";
+console.log("number : ",+str5);
+console.log("string: ",str5);
+console.log("boolean: ",Boolean(str5));
+
+// Q13. FizzBuzz 
+// Print:
+// multiple of 3 → fizz
+// multiple of 5 → buzz
+// multiple of both → fizzbuzz
+// Constraints:No if statement allowed.
+for (let i = 1; i <= 15; i++) {
+   let result =
+      (i % 3 === 0 ? "fizz" : "") +
+      (i % 5 === 0 ? "buzz" : "");
+
+   console.log(result || i);
+}
