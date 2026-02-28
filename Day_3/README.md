@@ -20,7 +20,7 @@
   - for...in loop
 
 ## File Structure
-
+```
 Day-03/
 ├── day_3.html         - Basic html file
 ├── do_it_yourself.js  - Tricky questions for practice to do yourself 
@@ -33,6 +33,6 @@ Day-03/
 ├── file7.js           - Special Loops (for of , for in)
 ├── file8.js           - Array Destructuring 
 └── README.md
-
+```
 ## Status
 ✅ Completed
