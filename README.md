@@ -105,6 +105,17 @@ Here all Interview questions with answers
 32. Why strings are immutable?
     Because primitives are stored directly in memory and modifying them would break memory optimization and predictability. Hence JS returns new string.
 
+33. Why [] == [] is false ?
+    Because Arrays are reference types . Comaprison checks memory address , not content.
+
+34. Difference between shallow copy and deep copy ?
+    Shallow copy copies only first level elements.Nested objects stil share referene. Deep copy creates independent copy including nested structures.
+
+35. Why delete does not reduce array length ? 
+    Delete removes property but does not shift indexes.Length property remains unaffeccted.
+
+36. How Arrays stored internally ?
+    Arrays are specialised objects with numeric keys and dynamic length property.
 
 
 

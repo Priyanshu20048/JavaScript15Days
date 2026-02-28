@@ -289,7 +289,60 @@ for (let i of arr){
 // 2
 // 3 
 
-// ----------------------------Day-4---------------------------
+let a = [1,2];
+let b = a;
+b.push(3);
+console.log(a); //[1,2,3]
+
+let a = [1,2];
+let b = [...a];
+b.push(3);
+console.log(a); // [1,2]
+
+console.log([] ==[]) // false 
+
+console.log([1,2] + [3,4]); // "1,23,4"
+
+let a = [1,2,3];
+delete a[1];
+console.log(a.length); // 3 
+// delete element ko remove nahi karta
+// Sirf value ko undefined/empty slot bana deta hai
+//  Length change nahi hoti
+
+let a = [1,2];
+a.length =0;
+console.log(a); // []
+
+for (let i in [10,20,30]){
+    console.log(i);
+}
+// 0
+// 1
+// 2 
+
+for (let i of [10,20,30]){
+    console.log(i);
+}
+// 10
+// 20
+// 30
+
+let  a = [1,2];
+console.log(typeof a); // object
+
+let a = [1,2];
+a[5] = 10;
+console.log(a.length); // 6
+
+let a = [1, 2];
+console.log(a.length);  // 2
+a.length = 5;
+console.log(a);  // [ 1, 2, <3 empty items> ]
+console.log(a.length);  // 5 
+
+
+//----------------------------Day-4---------------------------
 
 let obj = {name :"JS"},
     obj.age = 20;

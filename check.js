@@ -1,6 +1,7 @@
+let a = [1, 2];
+console.log(a.length);  // 2
 
+a.length = 5;
 
-console.log(true + false + "5");
-console.log("5" - true);
-if ({}) console.log("D");
-console.log(false || true && false);
+console.log(a);
+console.log(a.length);
