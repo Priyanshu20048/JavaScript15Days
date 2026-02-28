@@ -22,14 +22,16 @@
 ## File Structure
 
 Day-03/
-├── file1.js   - Introduction to arrays & creation
-├── file2.js   - Array methods (push, pop, shift, unshift)
-├── file3.js   - Primitive vs reference data types
-├── file4.js   - Cloning arrays
-├── file5.js   - for  & while loop in Array
-├── file6.js   - Using Const for Arrays 
-├── file7.js   - Special Loops (for of , for in)
-├── file8.js  - Array Destructuring 
+├── day_3.html         - Basic html file
+├── do_it_yourself.js  - Tricky questions for practice to do yourself 
+├── file1.js           - Introduction to arrays & creation
+├── file2.js           - Array methods (push, pop, shift, unshift)
+├── file3.js           - Primitive vs reference data types
+├── file4.js           - Cloning arrays
+├── file5.js           - for  & while loop in Array
+├── file6.js           - Using Const for Arrays 
+├── file7.js           - Special Loops (for of , for in)
+├── file8.js           - Array Destructuring 
 └── README.md
 
 ## Status
