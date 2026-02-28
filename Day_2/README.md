@@ -22,7 +22,7 @@
 - switch Statement
 
 ##  File Structure
-
+```
 Day-02/
 ├── day_2.html          - Basic html file 
 ├── do_it_yourself.js   - Tricky questions for practice to do yourself
@@ -38,6 +38,6 @@ Day-02/
 ├── file10.js           - Break & Continue 
 ├── file11.js           - Do while loop 
 └── README.md
-
+```
 ## Status
 ✅ Completed
