@@ -37,5 +37,10 @@ console.log(lastName); // Mittal
 
 // here also lastName is accessible in another block because var is function scoped 
 
+function test () {
+    var a = 10;
+    console.log(a);
+}
 
-
+test();
+console.log(a);
