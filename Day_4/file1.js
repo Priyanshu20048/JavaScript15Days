@@ -30,7 +30,7 @@ console.log(person["names"]); // Priyanshu
 // you can also store arrays or objects inside objects
 
 //--------------------------------------------
-// difeerence between dot notation and bracket notation
+// difference between dot notation and bracket notation
 
 // if they key has space in between then we cannot use dot notation
 const personA = {

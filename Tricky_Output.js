@@ -442,7 +442,44 @@ copy.a.b = 10;
 console.log(obj.a.b); // 10 
 
 
+let obj = {a:1};
+let obj2 = obj;
+obj2.a = 10;
+console.log(obj.a); // 10
+
+console.log({} == {}); // false 
+
+let obj = {a:1};
+console.log(obj["a"]); // 1
+
+let key = "age";
+let user = {age:25};
+console.log(user.key); // undefined
+
+let obj = {a:1,b:2};
+for (let k in obj){
+    console.log(k);
+}
+// a
+// b 
+
+let obj ={a:1};
+delete obj.a;
+console.log(obj); // {}
 
 
+let obj = {a:1};
+console.log("a" in obj); // true
 
+let obj = {a:2};
+console.log(Object.keys(obj).length); // 1
 
+let obj = {a:1};
+Object.freeze(obj);
+obj.a=5;
+console.log(obj.a); // 1
+
+let obj = {a:1};
+let {a} = obj;
+a = 10;
+console.log(obj.a); // 1

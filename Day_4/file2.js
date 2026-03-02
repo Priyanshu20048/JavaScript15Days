@@ -65,7 +65,7 @@ for (let key in obj) {
 console.log(obj); // { b: 2 }
 
 // same kaam for of loop se karte hai
-// ismei jo snapshot hai woh woh Object.key() hume jo keys ka rray return karta hai uska hota hai
+// ismei jo snapshot hai woh woh Object.key() hume jo keys ka array return karta hai uska hota hai
 
 let obj1 = { a: 1, b: 2 };
 for (let key of Object.keys(obj1)) {
