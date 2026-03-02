@@ -16,16 +16,19 @@
 - Nested Objects
 
 ## File Structure
-
+```
 Day-04/
-├── file1.js   - Introduction to objects & creation
-├── file2.js   - Iterating objects using 
-├── file3.js   - Computed properties
-├── file4.js   - Cloning Objects
-├── file5.js   - Object destructuring 
-├── file6.js   - Objects inside Arrays
-├── file5.js   - Nested Destructuring 
+├── day_4.html         - html file 
+├── do_it_yourself.js  - Tricky questions for practice to do yourself 
+├── file1.js           - Introduction to Objects
+├── file2.js           - Iterating objects 
+├── file3.js           - Computed properties
+├── file4.js           - Cloning Objects
+├── file5.js           - Object destructuring 
+├── file6.js           - Objects inside Arrays
+├── file7.js           - Nested Destructuring
+├── file8.js           - Object Methods  
 └── README.md
-
+```
 ## Status
 ✅ Completed
