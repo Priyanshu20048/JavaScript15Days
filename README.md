@@ -117,6 +117,23 @@ Here all Interview questions with answers
 36. How Arrays stored internally ?
     Arrays are specialised objects with numeric keys and dynamic length property.
 
+37. Why {} == {} is false ?
+    Because objects are reference types.Equality compares memory addresses, not internal content.
+
+38. Difference between Object.freeze and Object.seal ? 
+    Freeze : cannot add , delete and modify
+    Seal   : cannot add/delete , only modification to existing values
+
+39. What is destructuring ?
+    Destructurng is ES6 feature allowing extraction of properties from objects into variables in concise syntax.
+
+40. How to check if property exists ?
+    using key in obj or obj.hasOwnProperty(key)
+
+41. How Objects stored intrnally ?
+    Objects are hash maps internally where keys map to memory reference of values.
+
+
 
 
 
