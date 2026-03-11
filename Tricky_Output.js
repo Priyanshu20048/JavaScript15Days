@@ -483,3 +483,139 @@ let obj = {a:1};
 let {a} = obj;
 a = 10;
 console.log(obj.a); // 1
+
+
+
+// ---------------------------Day-5---------------------------
+sayHi();
+function sayHi() {
+    console.log("Hello");
+}
+// Hello
+
+sayHi();{
+   var sayHi= function(){
+    console.log("hello");
+   }
+} // TypeError 
+
+console.log(a);
+var a =10;
+function a(){}  // [Function: a]
+
+function test(){
+    console.log(a);
+    var a =5;
+} test(); // undefined
+
+let a =10;
+function outer(){
+    let a =20;
+    function inner (){
+        console.log(a);
+    }
+    inner();
+}
+outer(); // 20
+
+let a =10;
+function outer(){
+    function inner(){
+        console.log(a);
+    }
+    inner();
+}
+outer(); // 10
+
+function x(){
+    return function(){
+        console.log("Hello");
+    };
+}
+x()(); // Hello
+
+function x(){
+    console.log(this);
+} 
+x(); 
+// In browser → window
+// In strict mode → undefined
+
+const add = (a,b) => a+b;
+console.log(add(2,3));
+// 5
+
+function test (a) {
+    a =20;
+}
+let x = 10;
+test(x);
+console.log(x); // 10
+
+
+
+
+
+//----------------------------------Day-6----------------------
+function test(a=5) {
+    console.log(a);
+}
+test(undefined); // 5
+
+function test(a=5) {
+    console.log(a);
+
+}
+test(null); // null
+
+function sum(...nums){
+    console.log(nums.length);
+}
+sum(1,2,3,4); // 4
+
+function test(a,b,...rest){
+    console.log(rest);
+}
+test(1,2,3,4); // [3,4]
+
+function test(a,...rest,b){} // syntaxError 
+
+function outer(x){
+    return function(y){
+        console.log(x+y);
+    }
+}
+outer(5)(10);  // 15
+
+function outer(){
+    let count =0;
+    return function(){
+        count++;
+        console.log(count);
+    }
+}
+let fn = outer();
+fn();
+fn();
+// 1
+// 2
+
+function greet(name,cb){
+    cb();
+}
+greet("A",function(){
+    console.log("hello");
+});
+// hello
+
+function test(a=b,b=2){
+    console.log(a,b);
+}
+test(); // reference error 
+// b not initialised when evaluating a 
+
+function test (a,b=2){
+    console.log(arguments.length);
+}
+test(1);
+// 1
