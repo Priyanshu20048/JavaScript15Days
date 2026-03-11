@@ -133,6 +133,32 @@ Here all Interview questions with answers
 41. How Objects stored intrnally ?
     Objects are hash maps internally where keys map to memory reference of values.
 
+42. Difference between Function declaration and expression ?
+    Function declarstion is hoisted and can be called before definition.
+    Function expression is assigned to variable and follows variable hoisting rules.
+
+43. What is lexical scope ? 
+    Lexical scope means a function can access variables from its parent scope based on where it is defined, not where it is invoked.
+
+44. What is hoisting ? 
+    Hoisting in JS behaviour where variables and function declarations are moved to top of their scope during memory craetion phase.
+
+45. Are functions first - class ciizens ? 
+    Yes . Functions can be :- 
+    1. Assigned to variables
+    2. Passed as arguments 
+    3. Returned from other functions 
+
+46. Difference between Arrow and normal functions ?
+    Arrow :-
+    1. No own this
+    2. cannot be constructor 
+    3. Short syntax
+    Normal :- 
+    1. Has own this 
+    2. can use as constructor 
+    
+
 
 
 
